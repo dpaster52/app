@@ -47,6 +47,38 @@ public class StandardCalc extends ActionBarActivity {
                 NumberClick(two,view);
             }
         });
+        three = (Button)findViewById(R.id.button2);
+        three.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+                NumberClick(three,view);
+            }
+        });
+        four = (Button)findViewById(R.id.button2);
+        four.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+                NumberClick(four,view);
+            }
+        });
+        five = (Button)findViewById(R.id.button2);
+        five.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+                NumberClick(five,view);
+            }
+        });
+        six = (Button)findViewById(R.id.button2);
+        six.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+                NumberClick(six,view);
+            }
+        });
         plus = (Button)findViewById(R.id.buttonPlus);
         plus.setOnClickListener(new View.OnClickListener(){
             @Override
