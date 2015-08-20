@@ -47,7 +47,7 @@ public class StandardCalc extends ActionBarActivity {
                 NumberClick(two,view);
             }
         });
-        three = (Button)findViewById(R.id.button2);
+        three = (Button)findViewById(R.id.button3);
         three.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view)
@@ -55,7 +55,7 @@ public class StandardCalc extends ActionBarActivity {
                 NumberClick(three,view);
             }
         });
-        four = (Button)findViewById(R.id.button2);
+        four = (Button)findViewById(R.id.button4);
         four.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view)
@@ -63,7 +63,7 @@ public class StandardCalc extends ActionBarActivity {
                 NumberClick(four,view);
             }
         });
-        five = (Button)findViewById(R.id.button2);
+        five = (Button)findViewById(R.id.button5);
         five.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view)
@@ -71,12 +71,36 @@ public class StandardCalc extends ActionBarActivity {
                 NumberClick(five,view);
             }
         });
-        six = (Button)findViewById(R.id.button2);
+        six = (Button)findViewById(R.id.button6);
         six.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view)
             {
                 NumberClick(six,view);
+            }
+        });
+        seven = (Button)findViewById(R.id.button7);
+        seven.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+                NumberClick(seven,view);
+            }
+        });
+        eight = (Button)findViewById(R.id.button8);
+        eight.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+                NumberClick(eight,view);
+            }
+        });
+        nine = (Button)findViewById(R.id.button9);
+        nine.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+                NumberClick(nine,view);
             }
         });
         plus = (Button)findViewById(R.id.buttonPlus);
